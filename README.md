@@ -21,7 +21,7 @@ End the program and close the output image windows.
 ## Program:
 #### Developed By: Dharani Elango
 #### Register Number: 212221230021
-i) #To Read,display the image
+i) To Read,display the image
 ```
  import cv2
 A=cv2.imread("1.jpg",1)
@@ -29,7 +29,7 @@ cv2.imshow("212221230021",A)
 cv2.waitKey(0) 
 
 ```
-ii) #To write the image
+ii) To write the image
 ```
 import cv2
 A=cv2.imread("1.jpg",1)
@@ -39,7 +39,7 @@ cv2.waitKey(0)
 
 
 ```
-iii) #Find the shape of the Image
+iii) Find the shape of the Image
 ```
 import cv2
 A= cv2.imread('1.jpg',1)
@@ -48,7 +48,7 @@ print(A.shape)
 
 
 ```
-iv) #To access rows and columns
+iv) To access rows and columns
 
 ```
 import random
@@ -63,7 +63,7 @@ cv2.waitKey(0)
 
 
 ```
-v) #To cut and paste portion of image
+v) To cut and paste portion of image
 ```
 import cv2
 A= cv2.imread('1.jpg',1)
